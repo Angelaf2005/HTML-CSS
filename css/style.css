@@ -1,0 +1,107 @@
+body{
+    background-color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+#Title{
+    justify-content: right;
+    display: flex;
+    background: #111;
+}
+div .Logop{
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
+}
+div #Images img{
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 5px;
+    height: 30px;
+}
+div div #m{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    border: 10;
+    border-radius: 20;
+    color: aliceblue;
+}
+div div #m li{
+    float: right;
+    color: aliceblue;
+}
+div div #m li a{
+    display: block;
+    color: aliceblue;
+    padding: 15px 20px;
+    text-decoration: none;
+    
+}
+div div #m li a:hover{
+    background-color: #E50914;
+    color:whitesmoke
+}
+#option{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#textprincipal h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px;
+}
+.box-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    width: 100%;
+}
+.btn{
+    display: block;
+    background-color: aliceblue;
+    color: #111;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: #E50914;
+}
+.box-3 .imgrecurse img{
+    width: 100%;
+    height: 100%;
+    height: auto;
+    justify-content: center;
+    opacity: 0.8;
+    transition: 0.5 ease-in;
+}
+.box-3 .imgrecurse img:hover{
+    width: 100%;
+    height: 100%;
+    height: auto;
+    justify-content: center;
+    opacity: 1;
+}
+.box-3 .imgrecurse{
+    height: auto;
+    width: 33%;
+    text-align: justify;
+    margin: 10px;
+    line-height: 1.7em;
+}
+#main-footer p {
+    background-color: #111;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+}
